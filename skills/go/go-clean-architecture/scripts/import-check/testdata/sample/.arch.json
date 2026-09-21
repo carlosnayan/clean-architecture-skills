@@ -1,0 +1,10 @@
+{
+  "layers": {
+    "domain": ["internal/domain"],
+    "usecase": ["internal/usecase"],
+    "adapter": ["internal/http"],
+    "infra": ["internal/infra"],
+    "root": ["cmd"]
+  },
+  "allow_in_domain": ["time", "errors", "fmt", "strings", "context"]
+}

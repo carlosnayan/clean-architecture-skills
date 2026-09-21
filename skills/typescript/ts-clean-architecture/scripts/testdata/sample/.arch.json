@@ -1,0 +1,10 @@
+{
+  "layers": {
+    "domain": ["src/domain"],
+    "usecase": ["src/usecase"],
+    "adapter": ["src/adapter"],
+    "infra": ["src/infra"],
+    "root": ["src/main.ts"]
+  },
+  "allow_in_domain": []
+}
